@@ -61,7 +61,11 @@ const styles = makeStyles((theme) => ({
         margin: 10,
         font: 'Arial',
         theme: theme
-    }
+    },
+    footer: {
+        backgroundColor: theme.palette.grey[800],
+        padding: theme.spacing(6, 0),
+    },
 }));
 
 export default styles;

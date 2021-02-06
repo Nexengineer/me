@@ -2,6 +2,7 @@ import { Grid } from "@material-ui/core";
 import React from "react";
 import styles from "./styles/MainStyles";
 import Header from "../header/Header";
+import Footer from "../header/Footer";
 const Main = () => {
   //   const classes = styles();
   return (
@@ -13,6 +14,8 @@ const Main = () => {
         alignItems="center"
       >
         <Header />
+
+        <Footer />
       </Grid>
     </div>
   );
