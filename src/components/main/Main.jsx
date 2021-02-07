@@ -3,6 +3,7 @@ import React from "react";
 import styles from "./styles/MainStyles";
 import Header from "../header/Header";
 import Footer from "../header/Footer";
+import TechPage from "../techpage/TechPage";
 const Main = () => {
   //   const classes = styles();
   return (
@@ -14,7 +15,7 @@ const Main = () => {
         alignItems="center"
       >
         <Header />
-
+        <TechPage />
         <Footer />
       </Grid>
     </div>
